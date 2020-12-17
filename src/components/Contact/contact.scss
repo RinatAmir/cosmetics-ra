@@ -169,7 +169,7 @@
     .contactContainer {
         & .details .gigiImage,
         & .formContainer {
-            width: 70%;
+            width: 50%;
         }
     }
 }
@@ -194,7 +194,7 @@
 
 @media (max-width: 1000px) {
     .contactContainer {
-        height: 70%;
+        height: 90%;
         width: 80%;
         flex-direction: row;
         align-items: flex-start;
@@ -203,18 +203,17 @@
 
         & .details {
             height: 60%;
-            flex-direction: row;
+            flex-direction: column;
 
             & .gigiImage {
                 margin-top: 5%;
-                width: fit-content;
-                width: 80%;
+                width: 90%;
             }
         }
 
         & .formContainer {
             height: 40%;
-            width: 95%;
+            width: 90%;
         }
     }
 }
